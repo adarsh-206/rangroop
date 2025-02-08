@@ -1,0 +1,52 @@
+# Ignore Node.js modules
+client/node_modules/
+server/node_modules/
+
+# Logs
+client/logs
+server/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+client/.env
+server/.env
+
+# Build directories
+client/build/
+server/dist/
+
+# Temporary files
+client/tmp/
+server/tmp/
+client/temp/
+server/temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# Cache
+client/.cache/
+server/.cache/
+
+# Dependency directories
+client/package-lock.json
+server/package-lock.json
+client/yarn.lock
+server/yarn.lock
+
+# Optional: Ignore coverage reports
+client/coverage/
+server/coverage/
+
+# Optional: Ignore generated API docs
+client/api-docs/
+server/api-docs/
