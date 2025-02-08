@@ -13,5 +13,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: parseInt(process.env.PORT) || 51730,
+    allowedHosts: ["rangroop-1.onrender.com"],
   },
 });
